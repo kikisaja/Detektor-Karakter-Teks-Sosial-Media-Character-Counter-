@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penghitung Karakter Sosmed Pop Art ✍️📱</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="counter-container">
+        <header class="counter-header">
+            <h1>✍️ TEXT COUNTER</h1>
+            <p>Ketik atau tempel teksmu di bawah untuk memantau batas karakter ideal postingan sosial media!</p>
+        </header>
+
+        <main class="counter-body">
+            <div class="input-group">
+                <label for="textarea-konten">Konten Postingan (Batas Ideal: 280 Karakter)</label>
+                <textarea id="textarea-konten" placeholder="Mulai ketik sesuatu di sini..." autocomplete="off"></textarea>
+            </div>
+            <button id="btn-bersihkan" class="btn-pop">Kosongkan Teks 🗑️</button>
+        </main>
+
+        <footer class="indicator-board">
+            <div class="score-box box-total">
+                <small>Total Karakter</small>
+                <span id="txt-total-karakter">0</span>
+            </div>
+            <div class="score-box box-sisa">
+                <small>Sisa Kuota</small>
+                <span id="txt-sisa-karakter">280</span>
+            </div>
+            <div class="score-box box-kata">
+                <small>Jumlah Kata</small>
+                <span id="txt-jumlah-kata">0</span>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
